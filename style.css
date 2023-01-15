@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-    
+
 .primary-btn button {
     width: 180px;
     height: 64px;
@@ -364,9 +364,10 @@ header {
     padding: 2vw;
 }
 
-.extra-image img{
+.extra-image img {
     width: 100%;
 }
+
 #section5-btn button {
     height: 125px;
     width: 300px;
@@ -382,80 +383,83 @@ header {
 /* ----------------Extra Section Style End----------- */
 
 @media screen and (max-width:576px) {
-    header{
+    header {
         height: 1100px;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
         width: 50vw;
     }
 
-    .header-title{
-        font-size: 25px; 
+    .header-title {
+        font-size: 25px;
         top: 50px;
     }
 
-    .header-menu-item{
+    .header-menu-item {
         display: flex;
         flex-direction: column;
         justify-content: left;
-  
+
     }
 
-    .section1{
+    .section1 {
         flex-direction: column;
         row-gap: 50px;
         margin-bottom: 50px;
 
     }
 
-   
-    .section1-image{
-        grid-template-columns: repeat(1,1fr);
+
+    .section1-image {
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .section1-info>div{
+    .section1-info>div {
 
         text-align: center;
     }
 
-    .section2{
+    .section2 {
         flex-direction: column;
-        
+
     }
-    .section2-main{
+
+    .section2-main {
         padding: 30px 0;
     }
 
-    .btn-2nd button{
+    .btn-2nd button {
         text-align: center;
         top: 0;
         left: 0;
     }
 
-    .section3{
+    .section3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .section4-image{
+    .section4-image {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 50px;
     }
-    .section4-image img{
+
+    .section4-image img {
         width: 50vw;
     }
-    
-    .extra{
+
+    .extra {
         flex-direction: column;
     }
 
-    .footer-title{
+    .footer-title {
         width: 100vw;
         text-align: center;
     }
-    
+
 }
