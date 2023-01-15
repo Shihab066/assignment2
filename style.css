@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn button {
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.G {
+    color: #FF900E;
+}
+
+/*--------------- Header Style Start -----------------*/
+header {
+    width: 100%;
+    height: 1300px;
+    background-color: rgba(255, 143, 14, 0.1);
+}
+
+/* Nav section style */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    position: relative;
+    top: 50px;
+    left: 11vw;
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+
+.header-menu-item {
+    width: 350px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+    position: relative;
+    top: 60px;
+    right: 12vw;
+}
+
+.header-menu-item li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.header-menu-item li {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color .2s linear;
+}
+
+.header-menu-item li:hover {
+    background-color: #ff8f0e9b;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    gap: 30px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.section-image img {
+    width: 100%;
+}
+
+/* --------------Header Section End----------------- */
+
+
+/* ------------------Section1 style Start---------------------- */
+.section1 {
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 360px;
+}
+
+.section1-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.section1-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+.section1-info>div {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.section1-title .part1 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.section1-title .part2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section1-title .part3 {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+/* ------------------Section1 style End---------------------- */
+
+
+/* ------------------Section2 style Start---------------------- */
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 145px;
+
+}
+
+.section2-header {
+    /* margin-bottom:25px ; */
+}
+
+.side-color {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+
+.section2-color {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 25px;
+}
+
+.section2-header-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.section2-header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.section2-main {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.section2-main-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.section2-main-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.section2-image img {
+    width: 100%;
+}
+
+.btn-2nd button {
+    width: 340px;
+    height:200px;
+    padding: 45px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    left: -50px;
+}
+
+.span1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.span2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
