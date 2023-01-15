@@ -3,6 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+    
 .primary-btn button {
     width: 180px;
     height: 64px;
@@ -157,11 +158,6 @@ header {
     display: flex;
     justify-content: center;
     column-gap: 145px;
-
-}
-
-.section2-header {
-    /* margin-bottom:25px ; */
 }
 
 .side-color {
@@ -218,7 +214,7 @@ header {
 
 .btn-2nd button {
     width: 340px;
-    height:200px;
+    height: 200px;
     padding: 45px;
     background: #FF900E;
     border-radius: 8px;
@@ -239,4 +235,227 @@ header {
     font-weight: 500;
     font-size: 25px;
     color: #FFFFFF;
+}
+
+/* ------------------Section2 style End---------------------- */
+
+
+/* ------------------Section3 style Start---------------------- */
+.section3-title h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.section3 {
+    display: flex;
+    column-gap: 7vw;
+    justify-content: center;
+    margin-bottom: 180px;
+
+}
+
+.section3-info {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-out, background-color 0.2s linear;
+}
+
+.section3-info:hover {
+    transform: rotate(10deg);
+    background-color: #FF900E;
+}
+
+.section3-heading {
+    font-size: 35px;
+    color: #424242;
+}
+
+.section3-description {
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* ------------------Section3 style End---------------------- */
+
+/* ------------------Section4 style Start---------------------- */
+.section4-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 24px;
+    margin-bottom: 50px;
+}
+
+.section4-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+
+}
+
+.section4-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.section4-image {
+    display: flex;
+    justify-content: center;
+    column-gap: 8vw;
+    margin-bottom: 130px;
+    padding: 2vw;
+}
+
+.section4-image img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+/* ------------------Section4 style End---------------------- */
+
+/* -----------------------footer Style Start------------------ */
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 90px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+}
+
+/* -----------------------Footer Style End ---------------------- */
+
+/* ----------------Extra Section Style Start----------- */
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vw;
+    margin-bottom: 50px;
+    padding: 2vw;
+}
+
+.extra-image img{
+    width: 100%;
+}
+#section5-btn button {
+    height: 125px;
+    width: 300px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+
+/* ----------------Extra Section Style End----------- */
+
+@media screen and (max-width:576px) {
+    header{
+        height: 1100px;
+    }
+    .navbar{
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .header-title{
+        font-size: 25px; 
+        top: 50px;
+    }
+
+    .header-menu-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+  
+    }
+
+    .section1{
+        flex-direction: column;
+        row-gap: 50px;
+        margin-bottom: 50px;
+
+    }
+
+   
+    .section1-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .section1-info>div{
+
+        text-align: center;
+    }
+
+    .section2{
+        flex-direction: column;
+        
+    }
+    .section2-main{
+        padding: 30px 0;
+    }
+
+    .btn-2nd button{
+        text-align: center;
+        top: 0;
+        left: 0;
+    }
+
+    .section3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4-image{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .section4-image img{
+        width: 50vw;
+    }
+    
+    .extra{
+        flex-direction: column;
+    }
+
+    .footer-title{
+        width: 100vw;
+        text-align: center;
+    }
+    
 }
